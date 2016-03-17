@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FeedViewInput.h"
+#import "FeedViewOutput.h"
 
-@interface FeedViewController : UIViewController
+@protocol FeedPresenterInput;
+
+@interface FeedViewController : UIViewController<FeedViewInput>
+
+@property (nonatomic, strong) id<FeedViewOutput> output;
 
 @end

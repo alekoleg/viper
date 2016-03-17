@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FeedViewOutput.h"
+#import "FeedInteractorOutput.h"
 
-@interface FeedPresenter : NSObject
+@protocol FeedInteractorInput, FeedRouterInput, FeedViewInput;
+
+@interface FeedPresenter : NSObject<FeedViewOutput, FeedInteractorOutput>
+
+@property (nonatomic, weak) id<FeedViewInput> view;
+@property (nonatomic, strong) id<FeedInteractorInput> interactor;
+@property (nonatomic, strong) id<FeedRouterInput> router;
 
 @end

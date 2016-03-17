@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FeedInteractorOutput.h"
+#import "FeedInteractorInput.h"
+#import "FeedRSSServiceOutput.h"
 
-@interface FeedInteractor : NSObject
+@protocol FeedRSSServiceInput;
+
+@interface FeedInteractor : NSObject<FeedRSSServiceOutput, FeedInteractorInput>
+
+@property (nonatomic, weak) id<FeedInteractorOutput> output;
+@property (nonatomic, strong) id<FeedRSSServiceInput> service;
 
 @end

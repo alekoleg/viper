@@ -10,4 +10,11 @@
 
 @implementation FeedViewController
 
+- (void)viewDidLoad
+{
+	[super viewDidLoad];
+
+	[self.output viewDidLoaded];
+}
+
 @end

@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		409C61B7FC8A51AD383D7279 /* libPods-viperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C530BC74048FFF1D782EAE3D /* libPods-viperUITests.a */; };
+		8AE1B8A4AF243BAD052A19E4 /* libPods-viper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450825BD954495FEC793BAA7 /* libPods-viper.a */; };
+		CFA6F0CA4661B5AF5E42CC98 /* libPods-viperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D34DB0F653E2577EF0F613 /* libPods-viperTests.a */; };
+		EC4DD4961C99D56F0060C22F /* FeedRSSServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4DD4951C99D56F0060C22F /* FeedRSSServiceTest.m */; };
+		EC4EB2AB1C99EFD7008071ED /* FeedStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */; };
+		EC4EB2AC1C99EFD7008071ED /* FeedStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */; };
+		EC4EB2AD1C99EFD7008071ED /* FeedStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */; };
+		EC4EB2B61C9A0FBD008071ED /* FeedRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2B51C9A0FBD008071ED /* FeedRSSParser.m */; };
+		EC4EB2B71C9A0FBD008071ED /* FeedRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2B51C9A0FBD008071ED /* FeedRSSParser.m */; };
+		EC4EB2B81C9A0FBD008071ED /* FeedRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2B51C9A0FBD008071ED /* FeedRSSParser.m */; };
+		EC4EB2BC1C9A189A008071ED /* FeedInteractorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2BA1C9A189A008071ED /* FeedInteractorTest.m */; };
 		EC8FCF341C9883BC00CB062F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF331C9883BC00CB062F /* main.m */; };
 		EC8FCF371C9883BD00CB062F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF361C9883BD00CB062F /* AppDelegate.m */; };
 		EC8FCF3D1C9883BD00CB062F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8FCF3B1C9883BD00CB062F /* Main.storyboard */; };
 		EC8FCF3F1C9883BD00CB062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8FCF3E1C9883BD00CB062F /* Assets.xcassets */; };
 		EC8FCF421C9883BD00CB062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8FCF401C9883BD00CB062F /* LaunchScreen.storyboard */; };
-		EC8FCF4D1C9883BD00CB062F /* viperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF4C1C9883BD00CB062F /* viperTests.m */; };
 		EC8FCF581C9883BD00CB062F /* viperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF571C9883BD00CB062F /* viperUITests.m */; };
 		EC8FCF6D1C988C6500CB062F /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF6C1C988C6500CB062F /* FeedViewController.m */; };
 		EC8FCF6E1C988C6500CB062F /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF6C1C988C6500CB062F /* FeedViewController.m */; };
@@ -29,6 +39,12 @@
 		EC8FCF811C988EAA00CB062F /* FeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF801C988EAA00CB062F /* FeedRouter.m */; };
 		EC8FCF821C988EAA00CB062F /* FeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF801C988EAA00CB062F /* FeedRouter.m */; };
 		EC8FCF831C988EAA00CB062F /* FeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF801C988EAA00CB062F /* FeedRouter.m */; };
+		EC8FCF941C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
+		EC8FCF951C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
+		EC8FCF961C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
+		ECECBA181C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
+		ECECBA191C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
+		ECECBA1A1C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450825BD954495FEC793BAA7 /* libPods-viper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84940AFFD4089FC13ED41D /* Pods-viperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperUITests/Pods-viperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3D34DB0F653E2577EF0F613 /* libPods-viperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C530BC74048FFF1D782EAE3D /* libPods-viperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7D1AFDD13D4B500D71B3BD /* Pods-viperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperTests/Pods-viperTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC4DD4951C99D56F0060C22F /* FeedRSSServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRSSServiceTest.m; sourceTree = "<group>"; };
+		EC4EB2A91C99EFD7008071ED /* FeedStorageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedStorageModel.h; sourceTree = "<group>"; };
+		EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedStorageModel.m; sourceTree = "<group>"; };
+		EC4EB2B41C9A0FBD008071ED /* FeedRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSParser.h; sourceTree = "<group>"; };
+		EC4EB2B51C9A0FBD008071ED /* FeedRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRSSParser.m; sourceTree = "<group>"; };
+		EC4EB2BA1C9A189A008071ED /* FeedInteractorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedInteractorTest.m; sourceTree = "<group>"; };
+		EC4EB2BE1C9A1C1B008071ED /* FeedInteractor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FeedInteractor+Private.h"; sourceTree = "<group>"; };
 		EC8FCF2F1C9883BC00CB062F /* viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8FCF331C9883BC00CB062F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC8FCF351C9883BC00CB062F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +86,6 @@
 		EC8FCF411C9883BD00CB062F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8FCF431C9883BD00CB062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8FCF481C9883BD00CB062F /* viperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8FCF4C1C9883BD00CB062F /* viperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viperTests.m; sourceTree = "<group>"; };
 		EC8FCF4E1C9883BD00CB062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8FCF531C9883BD00CB062F /* viperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8FCF571C9883BD00CB062F /* viperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viperUITests.m; sourceTree = "<group>"; };
@@ -73,6 +100,23 @@
 		EC8FCF7B1C988EA100CB062F /* FeedAseembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedAseembly.m; sourceTree = "<group>"; };
 		EC8FCF7F1C988EAA00CB062F /* FeedRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouter.h; sourceTree = "<group>"; };
 		EC8FCF801C988EAA00CB062F /* FeedRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRouter.m; sourceTree = "<group>"; };
+		EC8FCF841C98A04100CB062F /* FeedInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedInteractorInput.h; sourceTree = "<group>"; };
+		EC8FCF851C98A07600CB062F /* FeedInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedInteractorOutput.h; sourceTree = "<group>"; };
+		EC8FCF881C98A22E00CB062F /* FeedViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewInput.h; sourceTree = "<group>"; };
+		EC8FCF891C98A25500CB062F /* FeedViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewOutput.h; sourceTree = "<group>"; };
+		EC8FCF8A1C98A4FA00CB062F /* FeedRouteInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouteInput.h; sourceTree = "<group>"; };
+		EC8FCF8B1C98A52000CB062F /* FeedRouterOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouterOutput.h; sourceTree = "<group>"; };
+		EC8FCF921C98ACDE00CB062F /* FeedRSSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSService.h; sourceTree = "<group>"; };
+		EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRSSService.m; sourceTree = "<group>"; };
+		EC8FCF971C98B10A00CB062F /* FeedRSSServiceInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSServiceInput.h; sourceTree = "<group>"; };
+		EC8FCF981C98B11B00CB062F /* FeedRSSServiceOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSServiceOutput.h; sourceTree = "<group>"; };
+		ECECBA141C99E40600E93DF1 /* FeedRSSService+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FeedRSSService+Private.h"; sourceTree = "<group>"; };
+		ECECBA161C99EF9B00E93DF1 /* FeedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewModel.h; sourceTree = "<group>"; };
+		ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewModel.m; sourceTree = "<group>"; };
+		F7858254A9A9A483EB087F97 /* Pods-viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viper/Pods-viper.debug.xcconfig"; sourceTree = "<group>"; };
+		F858925246894E04EF0D4243 /* Pods-viperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperUITests/Pods-viperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA8A259BBEA1464AAD9FAD5 /* Pods-viperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperTests/Pods-viperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0021AF29A4490E99552DB0 /* Pods-viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-viper/Pods-viper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE1B8A4AF243BAD052A19E4 /* libPods-viper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA6F0CA4661B5AF5E42CC98 /* libPods-viperTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +140,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409C61B7FC8A51AD383D7279 /* libPods-viperUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B270E3A190CEEA1D74B8BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7858254A9A9A483EB087F97 /* Pods-viper.debug.xcconfig */,
+				FF0021AF29A4490E99552DB0 /* Pods-viper.release.xcconfig */,
+				FBA8A259BBEA1464AAD9FAD5 /* Pods-viperTests.debug.xcconfig */,
+				CC7D1AFDD13D4B500D71B3BD /* Pods-viperTests.release.xcconfig */,
+				F858925246894E04EF0D4243 /* Pods-viperUITests.debug.xcconfig */,
+				9A84940AFFD4089FC13ED41D /* Pods-viperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D41EE97969E088A87E5801B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450825BD954495FEC793BAA7 /* libPods-viper.a */,
+				A3D34DB0F653E2577EF0F613 /* libPods-viperTests.a */,
+				C530BC74048FFF1D782EAE3D /* libPods-viperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4EB2B31C9A0FA3008071ED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC4EB2B41C9A0FBD008071ED /* FeedRSSParser.h */,
+				EC4EB2B51C9A0FBD008071ED /* FeedRSSParser.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EC8FCF261C9883BC00CB062F = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +186,8 @@
 				EC8FCF4B1C9883BD00CB062F /* viperTests */,
 				EC8FCF561C9883BD00CB062F /* viperUITests */,
 				EC8FCF301C9883BC00CB062F /* Products */,
+				8B270E3A190CEEA1D74B8BAB /* Pods */,
+				D41EE97969E088A87E5801B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,8 +227,9 @@
 		EC8FCF4B1C9883BD00CB062F /* viperTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC8FCF4C1C9883BD00CB062F /* viperTests.m */,
 				EC8FCF4E1C9883BD00CB062F /* Info.plist */,
+				EC4DD4951C99D56F0060C22F /* FeedRSSServiceTest.m */,
+				EC4EB2BA1C9A189A008071ED /* FeedInteractorTest.m */,
 			);
 			path = viperTests;
 			sourceTree = "<group>";
@@ -164,10 +246,13 @@
 		EC8FCF651C988BDE00CB062F /* FeedModule */ = {
 			isa = PBXGroup;
 			children = (
+				EC4EB2B31C9A0FA3008071ED /* Helpers */,
+				ECECBA151C99EECB00E93DF1 /* Models */,
 				EC8FCF661C988BDE00CB062F /* Assembly */,
 				EC8FCF671C988BDE00CB062F /* Interactor */,
 				EC8FCF681C988BDE00CB062F /* Presenter */,
 				EC8FCF691C988BDE00CB062F /* Router */,
+				EC8FCF8C1C98ABCA00CB062F /* Services */,
 				EC8FCF6A1C988BDE00CB062F /* View */,
 			);
 			path = FeedModule;
@@ -187,6 +272,9 @@
 			children = (
 				EC8FCF751C988D5800CB062F /* FeedInteractor.h */,
 				EC8FCF761C988D5800CB062F /* FeedInteractor.m */,
+				EC4EB2BE1C9A1C1B008071ED /* FeedInteractor+Private.h */,
+				EC8FCF841C98A04100CB062F /* FeedInteractorInput.h */,
+				EC8FCF851C98A07600CB062F /* FeedInteractorOutput.h */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -205,6 +293,8 @@
 			children = (
 				EC8FCF7F1C988EAA00CB062F /* FeedRouter.h */,
 				EC8FCF801C988EAA00CB062F /* FeedRouter.m */,
+				EC8FCF8A1C98A4FA00CB062F /* FeedRouteInput.h */,
+				EC8FCF8B1C98A52000CB062F /* FeedRouterOutput.h */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -214,8 +304,33 @@
 			children = (
 				EC8FCF6B1C988C6500CB062F /* FeedViewController.h */,
 				EC8FCF6C1C988C6500CB062F /* FeedViewController.m */,
+				EC8FCF881C98A22E00CB062F /* FeedViewInput.h */,
+				EC8FCF891C98A25500CB062F /* FeedViewOutput.h */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EC8FCF8C1C98ABCA00CB062F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCF921C98ACDE00CB062F /* FeedRSSService.h */,
+				EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */,
+				ECECBA141C99E40600E93DF1 /* FeedRSSService+Private.h */,
+				EC8FCF971C98B10A00CB062F /* FeedRSSServiceInput.h */,
+				EC8FCF981C98B11B00CB062F /* FeedRSSServiceOutput.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECECBA151C99EECB00E93DF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECECBA161C99EF9B00E93DF1 /* FeedViewModel.h */,
+				ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */,
+				EC4EB2A91C99EFD7008071ED /* FeedStorageModel.h */,
+				EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8FCF5C1C9883BD00CB062F /* Build configuration list for PBXNativeTarget "viper" */;
 			buildPhases = (
+				6BF77E59F1FAE71EC69C4A64 /* Check Pods Manifest.lock */,
 				EC8FCF2B1C9883BC00CB062F /* Sources */,
 				EC8FCF2C1C9883BC00CB062F /* Frameworks */,
 				EC8FCF2D1C9883BC00CB062F /* Resources */,
+				2B82C3CBA69C78A0A23DFB23 /* Embed Pods Frameworks */,
+				7E3574427B85FDFA5C3E49EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8FCF5F1C9883BD00CB062F /* Build configuration list for PBXNativeTarget "viperTests" */;
 			buildPhases = (
+				1DCB51E3EC59A63604781D10 /* Check Pods Manifest.lock */,
 				EC8FCF441C9883BD00CB062F /* Sources */,
 				EC8FCF451C9883BD00CB062F /* Frameworks */,
 				EC8FCF461C9883BD00CB062F /* Resources */,
+				9456277AD2CFE7CE052DAF94 /* Embed Pods Frameworks */,
+				D7A848A1F37A0F23808814DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8FCF621C9883BD00CB062F /* Build configuration list for PBXNativeTarget "viperUITests" */;
 			buildPhases = (
+				3598DC9E0C335F67C7B0E77C /* Check Pods Manifest.lock */,
 				EC8FCF4F1C9883BD00CB062F /* Sources */,
 				EC8FCF501C9883BD00CB062F /* Frameworks */,
 				EC8FCF511C9883BD00CB062F /* Resources */,
+				062065326D080BC66169E927 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,18 +466,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		062065326D080BC66169E927 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viperUITests/Pods-viperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCB51E3EC59A63604781D10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B82C3CBA69C78A0A23DFB23 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viper/Pods-viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3598DC9E0C335F67C7B0E77C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF77E59F1FAE71EC69C4A64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3574427B85FDFA5C3E49EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viper/Pods-viper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9456277AD2CFE7CE052DAF94 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viperTests/Pods-viperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A848A1F37A0F23808814DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viperTests/Pods-viperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC8FCF2B1C9883BC00CB062F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8FCF941C98ACDE00CB062F /* FeedRSSService.m in Sources */,
 				EC8FCF371C9883BD00CB062F /* AppDelegate.m in Sources */,
 				EC8FCF6D1C988C6500CB062F /* FeedViewController.m in Sources */,
+				EC4EB2B61C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 				EC8FCF721C988D2C00CB062F /* FeedPresenter.m in Sources */,
 				EC8FCF7C1C988EA100CB062F /* FeedAseembly.m in Sources */,
+				ECECBA181C99EF9B00E93DF1 /* FeedViewModel.m in Sources */,
 				EC8FCF811C988EAA00CB062F /* FeedRouter.m in Sources */,
 				EC8FCF771C988D5800CB062F /* FeedInteractor.m in Sources */,
 				EC8FCF341C9883BC00CB062F /* main.m in Sources */,
+				EC4EB2AB1C99EFD7008071ED /* FeedStorageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,10 +614,15 @@
 			files = (
 				EC8FCF821C988EAA00CB062F /* FeedRouter.m in Sources */,
 				EC8FCF731C988D2C00CB062F /* FeedPresenter.m in Sources */,
+				EC8FCF951C98ACDE00CB062F /* FeedRSSService.m in Sources */,
+				EC4EB2B71C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 				EC8FCF6E1C988C6500CB062F /* FeedViewController.m in Sources */,
+				EC4DD4961C99D56F0060C22F /* FeedRSSServiceTest.m in Sources */,
+				ECECBA191C99EF9B00E93DF1 /* FeedViewModel.m in Sources */,
 				EC8FCF7D1C988EA100CB062F /* FeedAseembly.m in Sources */,
 				EC8FCF781C988D5800CB062F /* FeedInteractor.m in Sources */,
-				EC8FCF4D1C9883BD00CB062F /* viperTests.m in Sources */,
+				EC4EB2BC1C9A189A008071ED /* FeedInteractorTest.m in Sources */,
+				EC4EB2AC1C99EFD7008071ED /* FeedStorageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +632,14 @@
 			files = (
 				EC8FCF831C988EAA00CB062F /* FeedRouter.m in Sources */,
 				EC8FCF741C988D2C00CB062F /* FeedPresenter.m in Sources */,
+				ECECBA1A1C99EF9B00E93DF1 /* FeedViewModel.m in Sources */,
+				EC8FCF961C98ACDE00CB062F /* FeedRSSService.m in Sources */,
 				EC8FCF6F1C988C6500CB062F /* FeedViewController.m in Sources */,
 				EC8FCF7E1C988EA100CB062F /* FeedAseembly.m in Sources */,
+				EC4EB2AD1C99EFD7008071ED /* FeedStorageModel.m in Sources */,
 				EC8FCF791C988D5800CB062F /* FeedInteractor.m in Sources */,
 				EC8FCF581C9883BD00CB062F /* viperUITests.m in Sources */,
+				EC4EB2B81C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +762,7 @@
 		};
 		EC8FCF5D1C9883BD00CB062F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7858254A9A9A483EB087F97 /* Pods-viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = viper/Info.plist;
@@ -515,6 +775,7 @@
 		};
 		EC8FCF5E1C9883BD00CB062F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0021AF29A4490E99552DB0 /* Pods-viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = viper/Info.plist;
@@ -527,8 +788,13 @@
 		};
 		EC8FCF601C9883BD00CB062F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA8A259BBEA1464AAD9FAD5 /* Pods-viperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
 				INFOPLIST_FILE = viperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alekoleg.viperTests;
@@ -539,8 +805,13 @@
 		};
 		EC8FCF611C9883BD00CB062F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7D1AFDD13D4B500D71B3BD /* Pods-viperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
 				INFOPLIST_FILE = viperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alekoleg.viperTests;
@@ -551,6 +822,7 @@
 		};
 		EC8FCF631C9883BD00CB062F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F858925246894E04EF0D4243 /* Pods-viperUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = viperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -563,6 +835,7 @@
 		};
 		EC8FCF641C9883BD00CB062F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A84940AFFD4089FC13ED41D /* Pods-viperUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = viperUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -592,6 +865,7 @@
 				EC8FCF5E1C9883BD00CB062F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC8FCF5F1C9883BD00CB062F /* Build configuration list for PBXNativeTarget "viperTests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +874,7 @@
 				EC8FCF611C9883BD00CB062F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC8FCF621C9883BD00CB062F /* Build configuration list for PBXNativeTarget "viperUITests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +883,7 @@
 				EC8FCF641C9883BD00CB062F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
