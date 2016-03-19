@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*! В output выводятся данные работы */
 @property (nonatomic, weak) id<FeedInteractorOutput> output;
 
-/*! Сервис которые отвечает за работу с лентой */
+/*! Сервис, который отвечает за работу с лентой */
 @property (nonatomic, strong) id<FeedRSSServiceInput> service;
 
 @end

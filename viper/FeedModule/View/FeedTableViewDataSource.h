@@ -3,7 +3,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/*! Хелпер для работы с таблице в UI слоей */
+/*! Хелпер для работы с таблицой в UI слоей */
 @interface FeedTableViewDataSource : NSObject<UITableViewDataSource>
 
 @property (nonatomic, strong, nullable) NSArray *content;

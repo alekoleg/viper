@@ -4,7 +4,7 @@
 
 @protocol FeedPresenterInput;
 
-/*! Слой отвечающий за отображение RSS ленты */
+/*! Слой, отвечающий за отображение RSS ленты */
 @interface FeedViewController : UIViewController<FeedViewInput>
 
 @property (nonatomic, strong) id<FeedViewOutput> output;

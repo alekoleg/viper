@@ -7,7 +7,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void(^FeedRSSParserSuccessBlock)(NSArray<MWFeedInfo *> *items);
 typedef void(^FeedRSSParserFailBlock)(NSError *error);
 
-/*! Объект который загружает данные с RSS ленты
+/*! Объект, который загружает данные с RSS ленты
  **/
 @interface FeedRSSParser : NSObject
 
@@ -21,7 +21,7 @@ typedef void(^FeedRSSParserFailBlock)(NSError *error);
 /*! Парсинг RSS ленты
  *	
  *	@param complete - блок в который приходят объекты ленты
- *	@param failure - блок в который приходят сообщения об ошибке
+ *	@param failure - блок в который приходят сообщение об ошибке
  **/
 - (void)parseRSSComplete:(FeedRSSParserSuccessBlock)complete
 				 failure:(FeedRSSParserFailBlock)failure;

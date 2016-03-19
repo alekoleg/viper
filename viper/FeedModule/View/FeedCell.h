@@ -2,7 +2,7 @@
 
 @class FeedViewModel;
 
-/*! Ячейка отображения данный RSS ленты */
+/*! Ячейка отображения данных RSS ленты */
 @interface FeedCell : UITableViewCell
 
 @property (nonatomic, strong) IBOutlet UIImageView *pictureView;
