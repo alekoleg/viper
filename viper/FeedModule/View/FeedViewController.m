@@ -72,7 +72,7 @@
 	[self.tableView reloadData];
 }
 
-- (void)showErrorMessgae:(NSString *)message
+- (void)showErrorMessage:(NSString *)message
 {
 	__weak typeof(self) weakSelf = self;
 	[self.refreshControl endRefreshing];

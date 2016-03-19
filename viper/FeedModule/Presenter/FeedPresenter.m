@@ -41,7 +41,7 @@
 
 - (void)didFailToFetchRSSItems:(NSError *)error
 {
-	[self.view showErrorMessgae:error.userInfo[NSLocalizedDescriptionKey]];
+	[self.view showErrorMessage:error.userInfo[NSLocalizedDescriptionKey]];
 }
 
 #pragma mark - FeedViewOutput -

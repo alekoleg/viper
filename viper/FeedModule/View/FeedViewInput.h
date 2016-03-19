@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showRSSItems:(NSArray *)items;
 
 /*! Отобразить сообщение об ошибке */
-- (void)showErrorMessgae:(NSString *)message;
+- (void)showErrorMessage:(NSString *)message;
 
 @end
 

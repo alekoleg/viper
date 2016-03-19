@@ -39,8 +39,8 @@ describe(@"Service", ^{
 		KWMock<FeedRSSServiceOutput> *output = [KWMock mockForProtocol:@protocol(FeedRSSServiceOutput)];
 		service.output = output;
 		[service stub:@selector(createParserWithLink:) andReturn:parserMock];
-		[parserMock stub:@selector(parseRSSFeed:success:failure:) withBlock:^id(NSArray *params) {
-			void (^complete)(NSArray *) = params[1];
+		[parserMock stub:@selector(parseRSSComplete:failure:) withBlock:^id(NSArray *params) {
+			void (^complete)(NSArray *) = params[0];
 			complete(@[ [MWFeedItem new] ]);
 			return nil;
 		}];
@@ -53,8 +53,8 @@ describe(@"Service", ^{
 		KWMock<FeedRSSServiceOutput> *output = [KWMock mockForProtocol:@protocol(FeedRSSServiceOutput)];
 		service.output = output;
 		[service stub:@selector(createParserWithLink:) andReturn:parserMock];
-		[parserMock stub:@selector(parseRSSFeed:success:failure:) withBlock:^id(NSArray *params) {
-			void (^complete)(NSError *) = params[2];
+		[parserMock stub:@selector(parseRSSComplete:failure:) withBlock:^id(NSArray *params) {
+			void (^complete)(NSError *) = params[1];
 			complete([NSError nullMock]);
 			return nil;
 		}];
