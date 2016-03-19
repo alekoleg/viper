@@ -1,11 +1,3 @@
-//
-//  FeedTableViewDataSource.m
-//  viper
-//
-//  Created by Алексеенко Олег on 18/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedTableViewDataSource.h"
 #import "FeedCell.h"
 #import "FeedViewModel.h"

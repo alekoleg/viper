@@ -1,11 +1,3 @@
-//
-//  FeedPresenter.m
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedPresenter.h"
 #import "FeedViewInput.h"
 #import "FeedInteractorInput.h"
@@ -15,6 +7,29 @@
 #import "FeedRouterInput.h"
 
 @implementation FeedPresenter
+
+#pragma mark - Actions -
+
+- (void)startLoadingItems
+{
+	[self.interactor fetchRSSFeedItems];
+}
+
+- (NSArray<FeedViewModel *> *)mapToViewModelStorageModel:(NSArray<FeedStorageModel *> *)items
+{
+	NSMutableArray *results = [NSMutableArray arrayWithCapacity:items.count];
+	[items enumerateObjectsUsingBlock:^(FeedStorageModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+		FeedViewModel *viewModel = [FeedViewModel new];
+		viewModel.siteURL = [NSURL URLWithString:obj.source];
+		viewModel.siteDisplayName = viewModel.siteURL.host;
+		viewModel.title = obj.title;
+		viewModel.longText = obj.text;
+		viewModel.imageURL = [NSURL URLWithString:obj.imageLink];
+		viewModel.formattedDate = [[VZDateFormatter defaultFormatter] stringFromDate:obj.date withFormat:@"HH:mm"];
+		[results addObject:viewModel];
+	}];
+	return results;
+}
 
 #pragma mark - FeedInteractorOutput -
 
@@ -45,29 +60,6 @@
 - (void)didPickedViewModel:(FeedViewModel *)model
 {
 	[self.router openURL:model.siteURL];
-}
-
-#pragma mark - Actions -
-
-- (void)startLoadingItems
-{
-	[self.interactor fetchRSSFeedItems];
-}
-
-- (NSArray<FeedViewModel *> *)mapToViewModelStorageModel:(NSArray<FeedStorageModel *> *)items
-{
-	NSMutableArray *results = [NSMutableArray arrayWithCapacity:items.count];
-	[items enumerateObjectsUsingBlock:^(FeedStorageModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-		FeedViewModel *viewModel = [FeedViewModel new];
-		viewModel.siteURL = [NSURL URLWithString:obj.source];
-		viewModel.siteDisplayName = viewModel.siteURL.host;
-		viewModel.title = obj.title;
-		viewModel.longText = obj.text;
-		viewModel.imageURL = [NSURL URLWithString:obj.imageLink];
-		viewModel.formattedDate = [[VZDateFormatter defaultFormatter] stringFromDate:obj.date withFormat:@"HH:mm"];
-		[results addObject:viewModel];
-	}];
-	return results;
 }
 
 @end

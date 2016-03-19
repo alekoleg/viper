@@ -1,11 +1,3 @@
-//
-//  FeedViewController.m
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedViewController.h"
 #import "FeedTableViewDataSource.h"
 #import <UIView+CLPLoading.h>
@@ -48,6 +40,7 @@
 		[self.tableView addSubview:self.refreshControl];
 	}
 }
+
 
 #pragma mark - Actions -
 

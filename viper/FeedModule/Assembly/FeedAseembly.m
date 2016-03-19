@@ -1,18 +1,9 @@
-//
-//  FeedAseembly.m
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedAseembly.h"
 #import "FeedInteractor.h"
 #import "FeedRouter.h"
 #import "FeedPresenter.h"
 #import "FeedViewController.h"
 #import "FeedRSSService.h"
-
 
 @implementation FeedAseembly
 

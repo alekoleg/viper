@@ -1,13 +1,10 @@
-//
-//  Header.h
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
+NS_ASSUME_NONNULL_BEGIN
 
+/*! Протокол навигации по модулю */
 @protocol FeedRouterInput <NSObject>
 
-- (void)openURL:(NSURL *)url;
+- (void)openURL:(NSURL * _Nullable)url;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -1,11 +1,3 @@
-//
-//  FeedRouter.m
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedRouter.h"
 #import "FeedViewController.h"
 #import "FeedAseembly.h"
@@ -22,6 +14,9 @@ static NSString * const kFeedViewControllerStoryboardID = @"FeedViewControllerID
 	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
 	return nav;
 }
+
+
+#pragma mark - FeedRouterInput -
 
 - (void)openURL:(NSURL *)url
 {

@@ -1,13 +1,8 @@
-//
-//  Header.h
-//  viper
-//
-//  Created by Алексеенко Олег on 15/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
 
+/*! Протол взаимодействия интерактором */
 @protocol FeedInteractorInput <NSObject>
 
+/*! Сообщается, что необходимо начать загрузку данных */
 - (void)fetchRSSFeedItems;
 
 @end

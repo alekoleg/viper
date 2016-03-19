@@ -1,11 +1,3 @@
-//
-//  FeedRSSParser.m
-//  viper
-//
-//  Created by Алексеенко Олег on 17/03/16.
-//  Copyright © 2016 alekoleg. All rights reserved.
-//
-
 #import "FeedRSSParser.h"
 #import <MWFeedParser/MWFeedParser.h>
 
@@ -34,11 +26,10 @@
 	return self;
 }
 
-- (void)parseRSSFeed:(NSString *)link
-			 success:(FeedRSSParserSuccessBlock)success
-			failure:(FeedRSSParserFailBlock)failure
+- (void)parseRSSComplete:(FeedRSSParserSuccessBlock)complete
+				 failure:(FeedRSSParserFailBlock)failure;
 {
-	self.successBlock = success;
+	self.successBlock = complete;
 	self.failBlock = failure;
 	[self.parser parse];
 }
@@ -71,6 +62,5 @@
 		self.failBlock(error);
 	}
 }
-
 
 @end
