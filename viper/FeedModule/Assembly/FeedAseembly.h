@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class FeedViewController;
 @interface FeedAseembly : NSObject
+
++ (void)asseblyFeedModule:(FeedViewController *)vc;
 
 @end

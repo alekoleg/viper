@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "FeedRouterInput.h"
 
-@interface FeedRouter : NSObject
+@class FeedViewController;
+@interface FeedRouter : NSObject<FeedRouterInput>
+
++ (UIViewController *)createFeedViewController;
+
 
 @end

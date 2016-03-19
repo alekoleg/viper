@@ -20,10 +20,9 @@
 {
 	NSMutableArray *results = [NSMutableArray arrayWithCapacity:items.count];
 	[items enumerateObjectsUsingBlock:^(MWFeedItem * _Nonnull obj, NSUInteger _, BOOL * _Nonnull __) {
-		NSString *source = [NSURL URLWithString:obj.link].host;
 		NSString *imageLink = [obj.enclosures firstObject][@"url"];
 		FeedStorageModel *model =
-			[[FeedStorageModel alloc] initWithSource:source
+			[[FeedStorageModel alloc] initWithSource:obj.link
 										   imageLink:imageLink
 											   title:obj.title
 												text:obj.summary

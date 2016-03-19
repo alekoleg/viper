@@ -13,7 +13,7 @@
 #import <Bolts/Bolts.h>
 
 static NSString * const kFeedRSSLentaLink = @"http://lenta.ru/rss";
-static NSString * const kFeedRSSGazentaLink = @"http://www.gazeta.ru/export/rss/lenta.xml";
+static NSString * const kFeedRSSGazentaLink = @"http://gazeta.ru/export/rss/lenta.xml";
 
 @implementation FeedRSSService
 

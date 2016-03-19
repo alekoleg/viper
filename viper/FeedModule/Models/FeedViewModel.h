@@ -13,7 +13,10 @@
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *longText;
 @property (nonatomic, strong) NSURL *imageURL;
-@property (nonatomic, strong) NSString *site;
+@property (nonatomic, strong) NSURL *siteURL;
+@property (nonatomic, strong) NSString *siteDisplayName;
 @property (nonatomic, strong) NSString *formattedDate;
+
+@property (nonatomic, assign) BOOL showFullInfo;
 
 @end

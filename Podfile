@@ -15,7 +15,7 @@ def commonPods()
 #common
 	pod 'MWFeedParser', '~> 1.0.1'
 	pod 'Bolts', '~> 1.6.0'
-
+	pod 'AFNetworking', '~> 3.0.4'
 #my
 	pod 'VZDateFormatter'
 	pod 'CLPLoading'

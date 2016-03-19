@@ -10,6 +10,8 @@
 		409C61B7FC8A51AD383D7279 /* libPods-viperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C530BC74048FFF1D782EAE3D /* libPods-viperUITests.a */; };
 		8AE1B8A4AF243BAD052A19E4 /* libPods-viper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450825BD954495FEC793BAA7 /* libPods-viper.a */; };
 		CFA6F0CA4661B5AF5E42CC98 /* libPods-viperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D34DB0F653E2577EF0F613 /* libPods-viperTests.a */; };
+		EC1B281D1C9DFE46006AECE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1B281C1C9DFE46006AECE2 /* Localizable.strings */; };
+		EC1B281E1C9DFE46006AECE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1B281C1C9DFE46006AECE2 /* Localizable.strings */; };
 		EC4DD4961C99D56F0060C22F /* FeedRSSServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4DD4951C99D56F0060C22F /* FeedRSSServiceTest.m */; };
 		EC4EB2AB1C99EFD7008071ED /* FeedStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */; };
 		EC4EB2AC1C99EFD7008071ED /* FeedStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */; };
@@ -42,6 +44,12 @@
 		EC8FCF941C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
 		EC8FCF951C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
 		EC8FCF961C98ACDE00CB062F /* FeedRSSService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */; };
+		ECD8F9D11C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8F9D01C9BD2C400D6025C /* FeedTableViewDataSource.m */; };
+		ECD8F9D21C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8F9D01C9BD2C400D6025C /* FeedTableViewDataSource.m */; };
+		ECD8F9D31C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8F9D01C9BD2C400D6025C /* FeedTableViewDataSource.m */; };
+		ECD8FCB81C9BE91800D6025C /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8FCB71C9BE91800D6025C /* FeedCell.m */; };
+		ECD8FCB91C9BE91900D6025C /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8FCB71C9BE91800D6025C /* FeedCell.m */; };
+		ECD8FCBA1C9BE91900D6025C /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8FCB71C9BE91800D6025C /* FeedCell.m */; };
 		ECECBA181C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
 		ECECBA191C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
 		ECECBA1A1C99EF9B00E93DF1 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */; };
@@ -70,6 +78,7 @@
 		A3D34DB0F653E2577EF0F613 /* libPods-viperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C530BC74048FFF1D782EAE3D /* libPods-viperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D1AFDD13D4B500D71B3BD /* Pods-viperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperTests/Pods-viperTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC1B281C1C9DFE46006AECE2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		EC4DD4951C99D56F0060C22F /* FeedRSSServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRSSServiceTest.m; sourceTree = "<group>"; };
 		EC4EB2A91C99EFD7008071ED /* FeedStorageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedStorageModel.h; sourceTree = "<group>"; };
 		EC4EB2AA1C99EFD7008071ED /* FeedStorageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedStorageModel.m; sourceTree = "<group>"; };
@@ -104,12 +113,15 @@
 		EC8FCF851C98A07600CB062F /* FeedInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedInteractorOutput.h; sourceTree = "<group>"; };
 		EC8FCF881C98A22E00CB062F /* FeedViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewInput.h; sourceTree = "<group>"; };
 		EC8FCF891C98A25500CB062F /* FeedViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewOutput.h; sourceTree = "<group>"; };
-		EC8FCF8A1C98A4FA00CB062F /* FeedRouteInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouteInput.h; sourceTree = "<group>"; };
-		EC8FCF8B1C98A52000CB062F /* FeedRouterOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouterOutput.h; sourceTree = "<group>"; };
+		EC8FCF8A1C98A4FA00CB062F /* FeedRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRouterInput.h; sourceTree = "<group>"; };
 		EC8FCF921C98ACDE00CB062F /* FeedRSSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSService.h; sourceTree = "<group>"; };
 		EC8FCF931C98ACDE00CB062F /* FeedRSSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedRSSService.m; sourceTree = "<group>"; };
 		EC8FCF971C98B10A00CB062F /* FeedRSSServiceInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSServiceInput.h; sourceTree = "<group>"; };
 		EC8FCF981C98B11B00CB062F /* FeedRSSServiceOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedRSSServiceOutput.h; sourceTree = "<group>"; };
+		ECD8F9CF1C9BD2C400D6025C /* FeedTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewDataSource.h; sourceTree = "<group>"; };
+		ECD8F9D01C9BD2C400D6025C /* FeedTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewDataSource.m; sourceTree = "<group>"; };
+		ECD8FCB61C9BE91800D6025C /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		ECD8FCB71C9BE91800D6025C /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 		ECECBA141C99E40600E93DF1 /* FeedRSSService+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FeedRSSService+Private.h"; sourceTree = "<group>"; };
 		ECECBA161C99EF9B00E93DF1 /* FeedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewModel.h; sourceTree = "<group>"; };
 		ECECBA171C99EF9B00E93DF1 /* FeedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewModel.m; sourceTree = "<group>"; };
@@ -220,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				EC8FCF331C9883BC00CB062F /* main.m */,
+				EC1B281C1C9DFE46006AECE2 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -293,8 +306,7 @@
 			children = (
 				EC8FCF7F1C988EAA00CB062F /* FeedRouter.h */,
 				EC8FCF801C988EAA00CB062F /* FeedRouter.m */,
-				EC8FCF8A1C98A4FA00CB062F /* FeedRouteInput.h */,
-				EC8FCF8B1C98A52000CB062F /* FeedRouterOutput.h */,
+				EC8FCF8A1C98A4FA00CB062F /* FeedRouterInput.h */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -302,10 +314,14 @@
 		EC8FCF6A1C988BDE00CB062F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ECD8FCB61C9BE91800D6025C /* FeedCell.h */,
+				ECD8FCB71C9BE91800D6025C /* FeedCell.m */,
 				EC8FCF6B1C988C6500CB062F /* FeedViewController.h */,
 				EC8FCF6C1C988C6500CB062F /* FeedViewController.m */,
 				EC8FCF881C98A22E00CB062F /* FeedViewInput.h */,
 				EC8FCF891C98A25500CB062F /* FeedViewOutput.h */,
+				ECD8F9CF1C9BD2C400D6025C /* FeedTableViewDataSource.h */,
+				ECD8F9D01C9BD2C400D6025C /* FeedTableViewDataSource.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8FCF421C9883BD00CB062F /* LaunchScreen.storyboard in Resources */,
+				EC1B281D1C9DFE46006AECE2 /* Localizable.strings in Resources */,
 				EC8FCF3F1C9883BD00CB062F /* Assets.xcassets in Resources */,
 				EC8FCF3D1C9883BD00CB062F /* Main.storyboard in Resources */,
 			);
@@ -454,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1B281E1C9DFE46006AECE2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,12 +612,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD8FCB81C9BE91800D6025C /* FeedCell.m in Sources */,
 				EC8FCF941C98ACDE00CB062F /* FeedRSSService.m in Sources */,
 				EC8FCF371C9883BD00CB062F /* AppDelegate.m in Sources */,
 				EC8FCF6D1C988C6500CB062F /* FeedViewController.m in Sources */,
 				EC4EB2B61C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 				EC8FCF721C988D2C00CB062F /* FeedPresenter.m in Sources */,
 				EC8FCF7C1C988EA100CB062F /* FeedAseembly.m in Sources */,
+				ECD8F9D11C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */,
 				ECECBA181C99EF9B00E93DF1 /* FeedViewModel.m in Sources */,
 				EC8FCF811C988EAA00CB062F /* FeedRouter.m in Sources */,
 				EC8FCF771C988D5800CB062F /* FeedInteractor.m in Sources */,
@@ -612,12 +632,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD8FCB91C9BE91900D6025C /* FeedCell.m in Sources */,
 				EC8FCF821C988EAA00CB062F /* FeedRouter.m in Sources */,
 				EC8FCF731C988D2C00CB062F /* FeedPresenter.m in Sources */,
 				EC8FCF951C98ACDE00CB062F /* FeedRSSService.m in Sources */,
 				EC4EB2B71C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 				EC8FCF6E1C988C6500CB062F /* FeedViewController.m in Sources */,
 				EC4DD4961C99D56F0060C22F /* FeedRSSServiceTest.m in Sources */,
+				ECD8F9D21C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */,
 				ECECBA191C99EF9B00E93DF1 /* FeedViewModel.m in Sources */,
 				EC8FCF7D1C988EA100CB062F /* FeedAseembly.m in Sources */,
 				EC8FCF781C988D5800CB062F /* FeedInteractor.m in Sources */,
@@ -638,6 +660,8 @@
 				EC8FCF7E1C988EA100CB062F /* FeedAseembly.m in Sources */,
 				EC4EB2AD1C99EFD7008071ED /* FeedStorageModel.m in Sources */,
 				EC8FCF791C988D5800CB062F /* FeedInteractor.m in Sources */,
+				ECD8F9D31C9BD2C400D6025C /* FeedTableViewDataSource.m in Sources */,
+				ECD8FCBA1C9BE91900D6025C /* FeedCell.m in Sources */,
 				EC8FCF581C9883BD00CB062F /* viperUITests.m in Sources */,
 				EC4EB2B81C9A0FBD008071ED /* FeedRSSParser.m in Sources */,
 			);

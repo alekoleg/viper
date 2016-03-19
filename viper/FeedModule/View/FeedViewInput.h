@@ -10,6 +10,6 @@
 
 - (void)showLoadingIndicator;
 - (void)showRSSItems:(NSArray *)items;
-- (void)showErrorMessgae:(NSError *)error;
+- (void)showErrorMessgae:(NSString *)message;
 
 @end

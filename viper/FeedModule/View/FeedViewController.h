@@ -16,4 +16,6 @@
 
 @property (nonatomic, strong) id<FeedViewOutput> output;
 
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+
 @end

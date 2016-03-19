@@ -21,7 +21,7 @@
 
 	_source = [source copy];
 	_imageLink = [imageLink copy];
-	_title = [source copy];
+	_title = [title copy];
 	_text = [text copy];
 	_date = date;
 

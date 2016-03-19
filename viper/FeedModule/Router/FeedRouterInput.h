@@ -6,8 +6,8 @@
 //  Copyright © 2016 alekoleg. All rights reserved.
 //
 
-@protocol FeedRouteInput <NSObject>
+@protocol FeedRouterInput <NSObject>
 
-
+- (void)openURL:(NSURL *)url;
 
 @end

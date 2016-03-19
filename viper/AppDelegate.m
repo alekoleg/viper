@@ -7,13 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FeedRSSService.h"
-#import "FeedInteractor.h"
-
-@interface AppDelegate ()
-@property (nonatomic, strong) FeedRSSService *service;
-@property (nonatomic, strong) FeedInteractor *interactor;
-@end
+#import "FeedRouter.h"
 
 @implementation AppDelegate
 
@@ -21,13 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
 
-	self.service = [[FeedRSSService alloc] init];
-//
-//	self.interactor = [[FeedInteractor alloc] init];
-//	self.interactor.service = self.service;
-//	self.service.output = self.interactor;
-//
-//	[self.interactor fetchRSSFeedItems];
+	self.window.rootViewController = [FeedRouter createFeedViewController];
 
 	return YES;
 }
