@@ -8,6 +8,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*! Объект навигации по модулю */
 @interface FeedRouter : NSObject<FeedRouterInput>
 
+/*! UI слой */
 + (UIViewController *)createFeedViewController;
 
 @end

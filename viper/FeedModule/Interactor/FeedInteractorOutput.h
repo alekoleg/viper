@@ -1,8 +1,8 @@
-
 NS_ASSUME_NONNULL_BEGIN
 
-/*! Протокл выходных данных от интерактора */
 @class FeedStorageModel;
+
+/*! Протокл выходных данных от интерактора */
 @protocol FeedInteractorOutput <NSObject>
 
 /*! Упешно загрузились данные */
